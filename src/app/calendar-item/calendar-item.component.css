@@ -1,0 +1,57 @@
+.back {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  transition: all 1.5s ease-in-out;
+  border: 1px dashed #fff;
+}
+
+.front {
+  background-color: transparent;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  cursor: pointer;
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 1.5s ease-in-out;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;    /* #350887 */
+}
+
+.doorOpen {
+  /*prespectiv creates the door open effect*/
+  background-color: #e7dcec;
+  color: transparent;
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-110deg);
+}
+
+/* RESPONSIVE */
+@media only screen and (min-width: 1670px) {
+  .front, .back {
+    width: 150px;
+    height: 150px;
+  }
+
+  .front {
+    line-height: 150px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .front, .back {
+    width: 110px;
+    height: 110px;
+  }
+
+  .front {
+    line-height: 110px;
+  }
+}

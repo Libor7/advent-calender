@@ -1,0 +1,173 @@
+.advent {
+  background-image: url("../assets/advent_background_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 7px 14px 12px #262424;
+  box-shadow: 7px 14px 12px #262424;
+  width: 50%;
+  height: 95%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 15px;
+  padding: 0 100px;
+  box-sizing: border-box;
+}
+
+.advent:hover {
+  -webkit-box-shadow: 9px 15px 12px #262424;
+  box-shadow: 9px 15px 12px #262424;
+  top: 49%;
+  left: 49%;
+  margin-right: -49%;
+  transform: translate(-49%, -49%);
+  transition: all 0.3s linear;
+}
+
+/* RESPONSIVE */
+@media only screen and (min-width: 1670px) {
+  .advent {
+    height: unset;
+    margin: 100px;
+    padding: 50px!important;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .advent {
+    width: 45%;
+    padding: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 1460px) {
+  .advent {
+    padding: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .advent {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .advent {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .advent {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .advent {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .advent {
+    width: 90%;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .advent {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .advent {
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .advent {
+    padding: 20px 0;
+    height: unset;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .advent {
+    background-image: url("../assets/advent_background_img_mobile.jpg");
+  }
+}
+
+@media only screen and (max-height: 770px) {
+  .advent {
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: unset;
+  }
+}
+
+@media only screen and (max-height: 720px) {
+  .advent {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-height: 660px) {
+  .advent {
+    margin-top: 15%;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .advent {
+    margin-top: 20%;
+  }
+}
+
+@media only screen and (max-height: 540px) {
+  .advent {
+    margin-top: 25%;
+  }
+}
+
+@media only screen and (max-height: 480px) {
+  .advent {
+    margin-top: 30%;
+  }
+}
+
+@media only screen and (max-height: 420px) {
+  .advent {
+    margin-top: 40%;
+  }
+}
+
+@media only screen and (max-height: 370px) {
+  .advent {
+    margin-top: 45%;
+  }
+}
+
+@media only screen and (max-height: 320px) {
+  .advent {
+    margin-top: 50%;
+  }
+}
+
+@media only screen and (max-height: 270px) {
+  .advent {
+    margin-top: 55%;
+  }
+}
